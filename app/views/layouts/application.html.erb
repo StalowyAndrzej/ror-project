@@ -17,6 +17,10 @@
   </head>
   <body>
     <%= render 'home/header' %>
+    <br/>
+    <% if notice%>
+      <%= render 'layouts/alerts'%>
+    <% end %>
 
     <div class="container">
       <br/>
